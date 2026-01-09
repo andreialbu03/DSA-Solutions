@@ -2,8 +2,7 @@ def func(head):
     if not head:
         return None
 
-    prev = None
-    curr = head
+    prev, curr = None, head
 
     while curr:
         next_node = curr.next
