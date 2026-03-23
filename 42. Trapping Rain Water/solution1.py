@@ -1,3 +1,5 @@
+# This solution updates pointer to max for maxR, maxL before calculating so no negatives calculated
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         l, r = 0, len(height) - 1
